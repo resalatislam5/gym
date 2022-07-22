@@ -128,3 +128,48 @@ Look_area-css
     width: 100px;
     margin-left: 30%;
 }
+/*================================
+About_area-css
+================================*/
+.About_area{
+    clear: both;
+    background-color: #000;
+    margin-top: 40px;
+}
+.About_area h1{
+    color: #fff;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 20px;
+}
+.inner_about{
+    display: flex;
+    justify-content: space-around;
+}
+.about_img_1 {
+    transform:skewy(-7deg)
+}
+.about_img_2 {
+    transform:skewy(-7deg)
+}
+.left_about {
+    display: flex;
+}
+.right_about h1{
+    font-size: 43px;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+.right_about p{
+    font-size: 22px;
+    font-weight: 700;
+    margin: 10px;
+    color: rgb(196, 205, 205);
+}
+.right_about ul{
+    margin-top: 40px;
+    font-size: 18px;
+    line-height: 1.5;
+    list-style: square;
+    color: #fff;
+}
