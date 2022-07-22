@@ -1,0 +1,9 @@
+
+
+.manu_container{
+    display: flex;
+    justify-content: space-between;
+}
+.manu_item{
+    display: flex;
+}
